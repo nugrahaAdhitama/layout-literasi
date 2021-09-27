@@ -1,7 +1,8 @@
-const card = document.querySelectorAll(".card");
+const cardBody = document.querySelectorAll(".card-body");
+const cardText = document.querySelectorAll(".card-text");
+const cardLink = document.querySelectorAll(".text-link");
 
-card.addEventListener("touchstart", function(e) {
+cardBody.addEventListener("onClick", e=> {
     e.preventDefault;
-
-    card.classList.add(".change-color");
+    console.log("Halo");
 });
