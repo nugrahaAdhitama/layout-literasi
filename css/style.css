@@ -28,6 +28,18 @@ body {
 .card-text {
     font-family: 'Inconsolata', monospace;
 }
+
+.bio-head {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.bio {
+    font-size: 14px;
+    line-height: 20px;
+}
+
 footer {
     background-color: #212529;
 }
